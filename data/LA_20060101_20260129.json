@@ -1,0 +1,50 @@
+{
+   "interface_naam": "LA",
+   "bron": "A2PPLS",
+   "versienr_applicatie": "0.0.1",
+   "versienr_extractie_logica": "0.0.1",
+   "volgnr_levering": "1",
+   "herlevering": "N",
+   "run_id_extractie": "1",
+   "extractiemoment": "2026-01-29 00:00:00",
+   "periode_start": "2006-01-01 00:00:00",
+   "periode_einde": "2026-01-29 00:00:00",
+   "parameters": "",
+   "bestanden": [
+        {   "bestandsnaam": "LA_IKV_IDENTIFICATIE_HIS.csv",
+            "records": [
+                {   "object": "LA_IKV_IDENTIFICATIE_HIS",
+                    "attributenlijst":"IKV_ID|HIS_DAT_IN|HIS_TS_IN|LHNR|SOFINR|NUMIV|AANDIV|PERSONEELSNUMMER|HIS_DAT_END|HIS_TS_END"} ],
+            "aantal_records": "9340"}
+  ,     {   "bestandsnaam": "LA_IKV_GELDIGHEID_HIS.csv",
+            "records": [
+                {   "object": "LA_IKV_GELDIGHEID_HIS",
+                    "attributenlijst":"IKV_ID|HIS_DAT_IN|HIS_TS_IN|DATUMAANVANG|DATUMEINDE|RDNEINDFLEX|HIS_DAT_END|HIS_TS_END|CDRDNEINDARBOV"} ],
+            "aantal_records": "3470"}
+  ,     {   "bestandsnaam": "LA_IKV_PERSOON_HIS.csv",
+            "records": [
+                {   "object": "LA_IKV_PERSOON_HIS",
+                    "attributenlijst":"IKV_ID|HIS_DAT_IN|HIS_TS_IN|SIGNM|GEBDAT|VOORL|VOORV|NAT|GESL|HIS_DAT_END|HIS_TS_END|CODE_INDICON"} ],
+            "aantal_records": "1198"}
+  ,     {   "bestandsnaam": "LA_SECTORRISICOGROEP.csv",
+            "records": [
+                {   "object": "LA_SECTORRISICOGROEP",
+                    "attributenlijst":"IKV_ID|RISICOPREMIEGROEP|CODESECTOROSV|HIS_DAT_IN|HIS_TS_IN|HIS_DAT_END|HIS_TS_END|SRG_ID"} ],
+            "aantal_records": "640"}
+  ,     {   "bestandsnaam": "LA_IKV_ADRES_HIS.csv",
+            "records": [
+                {   "object": "LA_IKV_ADRES_HIS",
+                    "attributenlijst":"IKV_ID|HIS_DAT_IN|HIS_TS_IN|STR|HUISNR|HUISNRTOEV|LOCOMS|PC|WOONPL|REG|LANDCD|ADRESTYPE|HIS_DAT_END|HIS_TS_END"} ],
+            "aantal_records": "1127"}
+  ,     {   "bestandsnaam": "LA_INKOMSTENOPGAVE.csv",
+            "records": [
+                {   "object": "LA_INKOMSTENOPGAVE",
+                    "attributenlijst":"IKV_ID|DATUMAANVANG|DATUMEINDE|HIS_TS_IN|HIS_TS_END|LNLBPH|LNSV|LNTABBB|VAKBSL|OPGRCHTVAKBSL|EXTRSAL|OPGRCHTEXTRSAL|LNINGLD|WRDLN|LNOWRK|VERSTRAANV|INGLBPH|PRWAOAOF|PRWAOAOK|PRAWF|PRWGF|PRUFO|BIJDRZVW|VERGZVW|WRDPRGEBRAUT|WRKNBIJDRAUT|WGBIJDRKO|LVLPREG|LVLPREGTOEG|REISK|VERRARBKRT|AANTSV|AANTVERLU|BEDRZDAFTR|BEDRALINWWB|BEDRRCHTAL|PRLNPRSECTFNDS|PRLNWAO|PRLNWAOWGA|PRLNWWAWF|PRLNUFO|PRLNWGAWHK|PRWGAWHK|WGHZVW|PRGEDIFFWHK|CTRCTLN|AANTCTRCTURENPWK|BEDRRNTKSTVPERSL|PRLNAWFANWLG|PRLNAWFANWHG|PRLNAWFANWHZ|PRAWFLG|PRAWFHG|PRAWFHZ|PRLNAOFANWLG|PRLNAOFANWHG|PRLNAOFANWUIT|OPNAVWB|OPBAVWB|PRAOFLG|PRAOFHG|PRAOFUIT|OPSLWKO|PRLNWHKANW|PRLNAWFANWUIT|PRAWFUIT"} ],
+            "aantal_records": "13254"}
+  ,     {   "bestandsnaam": "LA_INKOMSTENPERIODE.csv",
+            "records": [
+                {   "object": "LA_INKOMSTENPERIODE",
+                    "attributenlijst":"IKV_ID|HIS_DAT_IN|HIS_TS_IN|HIS_DAT_END|HIS_TS_END|SRTIV|CDAARD|CDINVLVPL|CDBEPTD|FSINDFZ|INDRGLMARB|CAO|CDAGH|INDLHKORT|CDRDNGNBIJT|LBTAB|INDWAO|INDWW|INDZW|CDZVW|INDVAKBN|INDSA71|INDSA72|INDSA43|INDSA03|CDINCINKVERM|INDAANVUITK|INDPKAGH|INDPKNWARBVOUDWN|INDPKINDNSTOUDWN|INDPMA|INDWGLDOUDREGL|INDTIJDHK|INDPKJONGWN|INDPRKIDAGWN|INDPRKDGBAF|INDPRKHPAGWN|INDAVRLKVOUDRWN|INDAVRLKVAGWN|INDAVRLKVDGBAFSB|INDAVRLKVHPAGWN|CDCAOINL|INDARBOVONBEPTD|INDSCHRIFTARBOV|INDOPROV|INDJRURENNRM|INDPUBAANONBEPTD|INDDEELNTIJDSPF"} ],
+            "aantal_records": "4037"}
+    ]
+}

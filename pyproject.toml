@@ -1,0 +1,26 @@
+[project]
+name = "synthpop-python-poc"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Erina",email = "erina.koomen@duo.nl"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "rpy2 (>=3.6.4,<4.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "pyreadr (>=0.5.4,<0.6.0)",
+    "xgboost (>=3.1.2,<4.0.0)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+[tool.poetry]
+packages = [{include = "synthpop_python_poc", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

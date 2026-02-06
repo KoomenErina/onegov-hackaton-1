@@ -1,0 +1,6 @@
+.vscode/
+src/synthpop_python_poc/__pycache__/
+*.png
+*.xlsx
+*.csv
+synData.xlsx
